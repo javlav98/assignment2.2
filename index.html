@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2.2</title>
+</head>
+<body>
+
+    <script>
+        let q1test = 15;
+
+        if ( q1test % 3 == 0 && q1test % 5 == 0) {
+            console.log("The number is divisible by 3 and 5");
+        } else if ( q1test % 3 == 0) {
+            console.log("The number is divisible by 3");
+        } else if ( q1test % 5 == 0) {
+            console.log("The number is divisible by 5");
+        } else {
+            console.log("The number is not divisible by 3 or 5");
+        }
+
+        let year1 = 1999;
+        let year2 = 2000;
+        let year3 = 1900;
+        let year4 = 2024;
+        
+        if ( year1 % 4 == 0 && year1 % 100 != 0 || year1 % 400 == 0) {
+            console.log(year1 + " is a leap year");
+        } else {
+            console.log(year1 + " is not a leap year");
+        } if ( year2 % 4 == 0 && year2 % 100 != 0 || year2 % 400 == 0) {
+            console.log(year2 + " is a leap year");
+        } else {
+            console.log(year2 + " is not a leap year");
+        } if ( year3 % 4 == 0 && year3 % 100 != 0 || year3 % 400 == 0) {
+            console.log(year3 + " is a leap year");
+        } else {
+            console.log(year3 + " is not a leap year");
+        } if ( year4 % 4 == 0 && year4 % 100 != 0 || year4 % 400 == 0) {
+            console.log(year4 + " is a leap year");
+        } else {
+            console.log(year4 + " is not a leap year");
+        }
+
+        for (let i = 1; i <= 100; i++) {
+            if (i % 3 == 0 || i % 4 == 0) {
+                console.log(i);
+            }
+        }
+    </script>
+</body>
+</html>
